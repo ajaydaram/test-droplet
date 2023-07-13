@@ -5,7 +5,7 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 // Enable CORS for all routes
 app.use(cors());
